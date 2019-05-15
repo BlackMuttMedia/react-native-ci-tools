@@ -1,5 +1,5 @@
 const plistSearchPattern = '**/Info.plist';
-const defaultPathIgnorePattern = ['**/build/**','**/Pods/**'];
+const defaultPathIgnorePattern = ['**/build/**','**/Pods/**','**/HockeySDK-iOS/**'];
 
 const process = (iosProjectPath, payload, strategy) => {
     const iosSearchPattern = `${iosProjectPath}/${plistSearchPattern}`;
